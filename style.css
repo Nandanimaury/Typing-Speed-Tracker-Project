@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+body.dark-mode .container {
+    background: linear-gradient(160deg, rgb(50, 50, 50), rgb(20, 20, 20));
+    color: white;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.dark{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    color: rgb(254, 233, 201);
+}
+.theme-toggle{
+    border: none;
+    background-color: none;
+}
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+
+.container {
+    background: linear-gradient(160deg, rgb(236, 248, 100), rgb(0, 0, 0));
+    color: #efd6d6;
+    width: 800px;
+    border-radius: 10px;
+    padding: 30px;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.content-box .text-of-typing {
+    max-height: 255px;
+    max-width: 600px;
+    overflow-y: auto;
+}
+
+.content-box .text-of-typing p {
+    text-align: justify;
+    font-size: 23px;
+    letter-spacing: 1px;
+    word-break: break-all;
+}
+
+.content-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .result {
+    padding: 19px;
+    border-radius: 10px;
+    background: linear-gradient(160deg, rgb(182, 226, 37), rgb(82, 33, 33));
+}
+
+.content .result li {
+    border-bottom: 1px solid #e0d8d8;
+    list-style: none;
+}
+
+.container button {
+    width: 20%;
+    height: 40px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: linear-gradient(160deg, rgb(154, 226, 37), rgb(82, 33, 33));
+}

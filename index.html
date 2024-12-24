@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Tracker Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="dark">      
+           <h1>Typing Speed Test</h1> 
+           <button id="theme-toggle" class="theme-toggle">🌙</button>
+        </div>
+        <input type="text" class="input-field" disabled>
+        <div class="content-box">
+            <div class="text-of-typing">
+                <p>taking app</p>
+            </div>
+            <div class="content">
+                <ul class="result">
+                    <li class="time">
+                        <p>Time</p>
+                        <span>60s</span>
+                    </li>
+                    <li class="errors">
+                        <p>Errors</p>
+                        <span>0</span>
+                    </li>
+                    <li class="wpm">
+                        <p>WPM</p>
+                        <span>0</span>
+                    </li>
+                    <li class="cpm">
+                        <p>CPM</p>
+                        <span>0</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <button class="start-button">Start</button> <!-- Start/Done button -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
